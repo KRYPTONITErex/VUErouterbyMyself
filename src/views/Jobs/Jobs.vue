@@ -3,9 +3,11 @@
     <h3>THIS IS JOBS PAGE</h3><br>
 
     <div v-for="job in jobs" :key="job.id" class="jobs">
-        <h4> {{ job.id }} {{ job.title }} {{ job.job }}</h4>
+        <router-link :to="{name:'jobdetail',params:{id:job.job}}">
+            <h4 id="title">{{ job.title }}</h4>
+        </router-link>
     </div>
-
+ 
   </div>
 </template>
 
@@ -36,6 +38,8 @@ export default {
     border-radius: 15px;
     font-size: large;
 }
-
+#title{
+    color: beige;
+}
 
 </style>
