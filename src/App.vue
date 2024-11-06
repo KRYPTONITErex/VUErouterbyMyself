@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link> |
 
     <router-link to="/job">JOBS</router-link> |
-    <router-link to="/jobdetails">JOB Details</router-link>
+    <router-link :to="{name:'jobdetail',params:{id:'id'}}">JOB Details</router-link>
 
 
   </nav>
