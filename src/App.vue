@@ -73,7 +73,7 @@ nav a {
 nav a.router-link-exact-active {
   color: #ffefd2;
   font-style: italic;
-  background-color: rgba(253, 18, 65, 0.953);
+  background-color: rgba(255, 14, 62, 0.917);
   padding: 5px 10px 5px;
   margin: 5px;
   text-decoration: none;
