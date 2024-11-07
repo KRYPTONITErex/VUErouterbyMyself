@@ -5,6 +5,7 @@
 
     <router-link :to="{name:'job'}">JOBS</router-link> |
     <router-link :to="{name:'jobdetail',params:{id:'id'}}">JOB Details</router-link>
+   
 
 
   </nav>
